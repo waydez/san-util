@@ -1,4 +1,14 @@
-function hello(compiler: string) {
-	console.log(`Hello from ${compiler}`)
+import add from './add'
+import subtract from './subtract'
+import multiply from './multiply'
+import divide from './divide'
+
+const calc = {
+  add,
+  subtract,
+  multiply,
+  divide
 }
-export { hello }
+
+export default calc
+export { add, subtract, multiply, divide }
