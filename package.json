@@ -1,6 +1,6 @@
 {
   "name": "san-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "General javascript tool library",
   "main": "dist/index.js",
   "module": "src/index.ts",
@@ -10,9 +10,18 @@
     "generate:umd": "cross-env NODE_ENV=production OUTPUT_TYPE=umd webpack --config ./webpack.config.js",
     "generate:esm": "cross-env NODE_ENV=production OUTPUT_TYPE=esm webpack --config ./webpack.config.js"
   },
-  "keywords": [],
   "author": "Adyo",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adyoow/san-util.git"
+  },
+  "homepage": "",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "api"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.4",
     "cross-env": "^7.0.3",
