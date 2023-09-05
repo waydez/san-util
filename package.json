@@ -1,7 +1,7 @@
 {
   "name": "san-util",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "General javascript tool library",
   "main": "dist/index.js",
   "module": "src/index.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "generate:esm": "cross-env NODE_ENV=production OUTPUT_TYPE=esm webpack --config ./webpack.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adyo",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.4",

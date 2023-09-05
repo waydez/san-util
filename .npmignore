@@ -3,3 +3,4 @@ test
 webpack.config.js
 tsconfig.json
 prettier.config.js
+jest.config.js
