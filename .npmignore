@@ -1,0 +1,5 @@
+node_modules
+test
+webpack.config.js
+tsconfig.json
+prettier.config.js
