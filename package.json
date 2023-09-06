@@ -1,12 +1,12 @@
 {
   "name": "san-util",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "General javascript tool library",
   "main": "dist/index.js",
   "module": "src/index.ts",
   "scripts": {
     "test": "jest ./test/index.test.ts",
-    "build": "rimraf dist es && npm run generate:esm & npm run generate:umd",
+    "lib": "rimraf dist es && npm run generate:esm & npm run generate:umd",
     "generate:umd": "cross-env NODE_ENV=production OUTPUT_TYPE=umd webpack --config ./webpack.config.js",
     "generate:esm": "cross-env NODE_ENV=production OUTPUT_TYPE=esm webpack --config ./webpack.config.js"
   },

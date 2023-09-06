@@ -13,7 +13,8 @@ const config = {
           add: './src/add.ts',
           subtract: './src/subtract.ts',
           multiply: './src/multiply.ts',
-          divide: './src/divide.ts'
+          divide: './src/divide.ts',
+          type: './src/type.ts'
         }
       : './src/index.ts',
 
