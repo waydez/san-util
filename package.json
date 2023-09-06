@@ -1,8 +1,8 @@
 {
   "name": "san-util",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "General javascript tool library",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "module": "src/index.ts",
   "scripts": {
     "test": "jest ./test/index.test.ts",
